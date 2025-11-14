@@ -1,0 +1,19 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "smoke-point",
+        "description": "Tiny feature for tippecanoe smoke test",
+        "difficulty": "green",
+        "uses": ["alpine"],
+        "type": "run",
+        "skiAreas": ["demo-area"],
+        "sources": ["internal"],
+        "status": "open"
+      },
+      "geometry": { "type": "Point", "coordinates": [0, 0] }
+    }
+  ]
+}
